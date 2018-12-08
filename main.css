@@ -1,0 +1,138 @@
+
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+header{
+	background-image: url(images/newt.png);
+	background-size: auto;
+}
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+}
+.logo{
+	float: left;
+	padding: 10px 0;
+	width: 50px;
+	height: 50px;
+}
+nav{
+	float: right;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 23px;
+	font-family: 'Righteous', cursive;
+	position: relative;
+}
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #161616;
+	font-size: 16px;
+}
+nav a:hover{
+	color: 	#F8FAFC;
+}
+
+.main_word .picture1{
+	width: 100%;
+	opacity: 0.9;
+
+}
+
+.main_word .sboku{
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #22292F;
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+	margin: 250px 50px 0 50px;
+	position	: absolute;
+	top			: -90px;
+	left		: 280px;
+	width		: 100%;
+}
+.sboku:hover{
+	color: #F8FAFC;
+	transition: 0.5s;
+}
+.main_word #main_button{
+	text-transform: uppercase;
+	font-size: 28px;
+	font-family: 'EB Garamond', serif;
+	position: relative;
+	top: -400px;
+	left: 900px;
+	border-radius: 4px;
+	display: inline-block;
+  	background-color: #8795A1;
+  	border: none;
+  	color: #FFFFFF;
+  	text-align: center;
+  	transition: all 0.5s;
+  	cursor: pointer;
+  	margin: 5px;
+
+}
+#main_button span {
+  padding-left: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#main_button span:after {
+  content: '\00bb';
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#main_button:hover span {
+  padding-right: 25px;
+}
+
+#main_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#akademia .image1{
+  margin-top: -53px;
+  position: relative;
+  top: 0;
+  left: 0;
+  
+}
+
+.image2 {
+  position: absolute;
+  top: 850px;
+  left: 50px;
+  width: 350px;
+  height: 400px;
+}
+.image3 {
+  position: absolute;
+  top: 850px;
+  left: 500px;
+  width: 350px;
+  height: 400px;
+}
+.image4 {
+  position: absolute;
+  top: 850px;
+  left: 950px;
+  width: 350px;
+  height: 400px;
+}
