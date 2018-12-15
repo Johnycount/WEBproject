@@ -88,51 +88,190 @@ nav a:hover{
 
 }
 #main_button span {
-  padding-left: 5px;
-  cursor: pointer;
-  transition: 0.5s;
+  	padding-left: 5px;
+  	cursor: pointer;
+  	transition: 0.5s;
 }
 
 #main_button span:after {
-  content: '\00bb';
-  opacity: 0;
-  transition: 0.5s;
+    content: '\00bb';
+  	opacity: 0;
+    transition: 0.5s;
 }
 
 #main_button:hover span {
-  padding-right: 25px;
+  	padding-right: 25px;
 }
 
 #main_button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-#akademia .image1{
-  margin-top: -53px;
-  position: relative;
-  top: 0;
-  left: 0;
-  
+  	opacity: 1;
+  	right: 0;
 }
 
-.image2 {
-  position: absolute;
-  top: 850px;
-  left: 50px;
-  width: 350px;
-  height: 400px;
+.coverimage1{
+  	margin-top: -53px;
+  	position: relative;
+  	top: 0;
+  	left: 0;
+  	opacity: 0.85;
+  	width: 100%;
+  
 }
-.image3 {
-  position: absolute;
-  top: 850px;
-  left: 500px;
-  width: 350px;
-  height: 400px;
+#akademia h1{
+	position: absolute;
+	top: 850px;
+	left: 350px;
+	text-transform: uppercase;
+	font-size: 40px;
+	color: #22292F;
+	font-family: 'EB Garamond', serif;
+	text-align: center;
 }
-.image4 {
-  position: absolute;
-  top: 850px;
-  left: 950px;
-  width: 350px;
-  height: 400px;
+
+#carousel img{
+	border: 1px solid lightgrey;
+	border-radius: 12px;
+  	opacity: 0.9;
+  	width:150px;
+  	height:150px;
+  	position: relative;
+  	top: -300px;
+  	left: 180px;
+  	margin: 3px;
+}
+#carousel{
+  	display:flex;
+}
+#bigImage img{
+	border: 1px solid grey;
+	border-radius: 12px;
+  	opacity: 0.9;
+  	width:500px;
+  	height:300px;
+  	position: absolute;
+  	top: 960px;
+  	left: 400px;
+}
+
+picture{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+picture a img{
+	position: relative;
+	top: -158px;
+	width: 674.5px;
+	height: 100vh;
+	margin-top: -4px; ;
+}
+.titles p{
+	font-family: 'EB Garamond', serif;
+	font-size: 75px;
+	color:white;
+
+}
+picture img:hover{
+	transform: scale(1.01);
+	transition: 0.3s;
+	opacity: 0.85;
+
+
+}
+.titles #p1{
+	position: relative;
+	top: -1200px;
+	left: 90px;
+}
+.titles #p2{
+	position: relative;
+	top: -1370px;
+	left: 820px;
+}
+.titles #p3{
+	position: relative;
+	top: -950px;
+	left: 150px;
+}
+.titles #p4{
+	position: relative;
+	top: -1100px;
+	left: 850px;
+}
+.fourthpage .fourthpage_cover img{
+	width: 100%;
+	position: relative;
+	top: -930px;
+	overflow: hidden;
+	opacity: 1;
+}
+.fourthpage .antimags img{
+	width: 300px;
+	height: 400px;
+	position: relative;
+	top: -1180px;
+	left: 70px;
+	margin: 50px;
+	border: 5px solid lightgrey;
+	opacity: 1;
+}
+.antimags img:hover{
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+.antimags_words p{
+	position: absolute;
+	top: 3000px;
+	left: 200px;
+	text-align: center;
+	font-size: 65px;
+	font-family: 'Crimson Text', serif;
+	text-transform: uppercase;
+	color: white;
+}
+hr {
+	height: 3px;
+	background: white;
+	width: 500px;
+}
+.ornament{
+	position: absolute;
+	top: 3000px;
+	left: 100px;
+	color: red;
+
+}
+.ornament2{
+	position: absolute;
+	top: 3000px;
+	left: 750px;
+}
+#sym{
+	position: absolute;
+	font-size: 45px;
+	top: 2930px;
+	color: white;
+	left: 655px;
+}
+.antitext h4{
+	font-size: 35px;
+	color: white;
+	opacity: 0.7;
+}
+#h41{
+	position: absolute;
+	top: 3500px;
+	left: 150px;
+}
+#h42{
+	position: absolute;
+	top: 3500px;
+	left: 590px;
+}
+#h43{
+	position: absolute;
+	top: 3500px;
+	left: 1020px;
 }
