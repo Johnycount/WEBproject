@@ -3,7 +3,7 @@ function change(e){
 	x.getElementsByTagName('img')[0].src = e.currentTarget.src;
 	console.log("success");
 }
-var y = document.getElementsByTagName('img');
+var y = document.getElementById('carousel').getElementsByTagName('img');
 
 for (var i = 0; i < y.length; i++) {
 	y[i].addEventListener("click",change);

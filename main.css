@@ -23,7 +23,7 @@ header::after {
 	height: 50px;
 }
 nav{
-	float: right;
+	text-align: center;
 }
 nav ul{
 	margin: 0;
@@ -32,7 +32,7 @@ nav ul{
 }
 nav ul li{
 	display: inline-block;
-	margin-left: 70px;
+	margin-left: 50px;
 	padding-top: 23px;
 	font-family: 'Righteous', cursive;
 	position: relative;
@@ -41,7 +41,7 @@ nav ul li a{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #161616;
-	font-size: 16px;
+	font-size: 14px;
 }
 nav a:hover{
 	color: 	#F8FAFC;
@@ -183,12 +183,12 @@ picture img:hover{
 .titles #p1{
 	position: relative;
 	top: -1200px;
-	left: 90px;
+	left: 50px;
 }
 .titles #p2{
 	position: relative;
 	top: -1370px;
-	left: 820px;
+	left: 900px;
 }
 .titles #p3{
 	position: relative;
@@ -198,7 +198,7 @@ picture img:hover{
 .titles #p4{
 	position: relative;
 	top: -1100px;
-	left: 850px;
+	left: 900px;
 }
 .fourthpage .fourthpage_cover img{
 	width: 100%;
@@ -223,8 +223,8 @@ picture img:hover{
 }
 .antimags_words p{
 	position: absolute;
-	top: 3000px;
-	left: 200px;
+	top: 2950px;
+	left: 120px;
 	text-align: center;
 	font-size: 65px;
 	font-family: 'Crimson Text', serif;
@@ -238,20 +238,20 @@ hr {
 }
 .ornament{
 	position: absolute;
-	top: 3000px;
+	top: 2950px;
 	left: 100px;
 	color: red;
 
 }
 .ornament2{
 	position: absolute;
-	top: 3000px;
+	top: 2950px;
 	left: 750px;
 }
 #sym{
 	position: absolute;
 	font-size: 45px;
-	top: 2930px;
+	top: 2880px;
 	color: white;
 	left: 655px;
 }
@@ -274,4 +274,173 @@ hr {
 	position: absolute;
 	top: 3500px;
 	left: 1020px;
+}
+.who h2{
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	position: absolute;
+	top: 3650px;
+	left: 300px;
+}
+.who h4{
+	font-family: 'Crimson Text', serif;
+	position: absolute;
+	top: 3750px;
+	left: 1050px;
+}
+.blackboard{
+	position: absolute;
+	top: 3850px;
+	width: 100%;
+	height: 150px;
+}
+.prepage p{
+	position: absolute;
+	top: 3850px;
+	left: 580px;
+	color: white;
+	font-size: 45px;
+	font-family: 'Lobster', cursive;
+
+}
+.music{
+	position: absolute;
+	top: 5000px;
+	left: 0;
+
+}
+.songypic{
+	position: absolute;
+	top: 4000px;
+	width: 100%;
+	height: 90%;
+}
+#movie{
+	position: absolute;
+	top: 4000px;
+	left: 80px;
+
+}
+#movie iframe{
+	margin:50px 20px 0 20px;
+}
+
+.filmnames h3{
+	position: absolute;
+	color: white;
+
+}
+#f1{
+	top: 4000px;
+	left: 150px;
+}
+#f2{
+	top: 4000px;
+	left: 510px;
+}
+#f3{
+	top: 4000px;
+	left: 895px;
+}
+#f4{
+	top: 4250px;
+	left: 150px;
+}
+#f5{
+	top: 4250px;
+	left: 500px;
+}
+#f6{
+	top: 4250px;
+	left: 900px;
+}
+
+.foot{
+	background-color: black;
+	width: 100%;
+	height: 200px;
+}
+
+.songyp p{
+	position: absolute;
+	top: 4600px;
+	left: 200px;
+	color: black;
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Lobster', cursive;
+}
+#insta{
+	width: 50px;
+	position: absolute;
+	top: 4920px;
+	left: 575px
+}
+#vk{
+	position: absolute;
+	top: 4927px;
+	left: 627px;
+	width: 35px;
+}
+#site{
+	position: absolute;
+	top: 4920px;
+	left: 665px;
+	width: 45px;
+}
+.aboutus, .chatus{
+	color: white;
+}
+.aboutus h4{
+	position: absolute;
+	top: 4850px;
+	left: 80px;
+	font-size: 20px;
+	font-family: 'EB Garamond', serif;
+}
+.aboutus p{
+	position: absolute;
+	left: 80px;
+	font-size: 15px;
+	font-family: 'EB Garamond', serif;
+}
+#Myname{
+	top: 4910px;
+}
+#Hisname{
+	top: 4930px; 
+}
+#contus{
+	color: white;
+	position: absolute;
+	top: 4850px;
+	left: 610px;
+	font-size: 20px;
+	font-family: 'EB Garamond', serif;
+}
+
+.chatus h4{
+	position: absolute;
+	top: 4850px;
+	left: 1100px;
+	font-size: 20px;
+	font-family: 'EB Garamond', serif;
+}
+.chatus p{
+	position: absolute;
+	left: 1100px;
+	font-size: 15px;
+	font-family: 'EB Garamond', serif;
+}
+#Cont1{
+	top: 4910px;
+}
+#Cont2{
+	top: 4930px; 
+}
+#kaskelen{
+	position: absolute;
+	top: 5000px;
+	left: 45%;
+	font-family: 'EB Garamond', serif;
 }
