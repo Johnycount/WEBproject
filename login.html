@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login page</title>
+	<script type="text/javascript" src="login.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+
+	<style type="text/css">
+
+		body{
+			background-image: url(images/hp.jpg);
+		}
+		.login{
+			position: relative;
+			top: 170px;
+			left: 525px;
+		}
+		.inputs{
+			display: flex;
+			flex-direction: column;
+		}
+		input{
+			margin-top: 10px;
+			background: url(images/hp.jpg);
+			width: 250px;
+			height: 30px;
+			border: 1px solid lightgrey;
+			border-radius: 2px;
+			color: #fff;
+			text-align: center;
+		}
+		#knopka{
+			background: lightgrey;
+			color: #474a4f;
+		}
+		#knopka:hover{
+			opacity: 0.8;
+		}
+		h1{
+			margin-left: 15px;
+			color: white;
+			font-family: 'EB Garamond', serif;
+			font-size: 25px;
+		}
+	
+	</style>
+</head>
+<body>
+	<form>
+	<div class="login">
+		<div class="inputs">
+			<h1>Welcome to Login Page!</h1>
+			<input type="text" id="loginbox" placeholder="Login">
+			<input type="password" id="passwordbox" placeholder="Password">
+			<input type="button" id="knopka" value="Log in" onclick="check(this.form)">
+		</div>
+	</div>
+
+</body>
+</html>
